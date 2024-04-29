@@ -2,11 +2,12 @@ package main
 
 import (
 	"example.com/os/helpers"
+	"example.com/os/system"
 )
 
 func main() {
 	subCommands := helpers.GetSubCommands()
 	flags := helpers.ParseFlags()
 
-	commandHandlers(subCommands, flags)
+	system.CommandHandlers(subCommands, flags)
 }

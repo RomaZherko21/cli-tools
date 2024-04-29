@@ -15,6 +15,7 @@ func getPrimaryCommandsList() map[string]bool {
 	list["info"] = true
 	list["cpu"] = true
 	list["disk"] = true
+	list["proc"] = true
 
 	return list
 }

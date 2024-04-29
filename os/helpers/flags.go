@@ -5,7 +5,7 @@ import (
 )
 
 type Options struct {
-	Path string `long:"path" description:"Folder path"`
+	Path string `long:"path" description:"Folder path" default:"/"`
 	// Port    int    `short:"p" long:"port" description:"Port to listen on" default:"8080"`
 	// Config  string `short:"c" long:"config" description:"Path to the configuration file"`
 }
